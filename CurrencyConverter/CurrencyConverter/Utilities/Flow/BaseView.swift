@@ -1,8 +1,8 @@
 //
 //  BaseView.swift
-//  Posthumously
+//  CurrencyConverter
 //
-//  Created by Kostiantyn Nikitchenko on 25.04.2022.
+//  Created by Vladyslav Liubov on 08.10.2022.
 //
 
 import Foundation

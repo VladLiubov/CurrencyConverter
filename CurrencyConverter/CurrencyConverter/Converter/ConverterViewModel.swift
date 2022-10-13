@@ -2,15 +2,14 @@
 //  ConverterViewModel.swift
 //  CurrencyConverter
 //
-//  Created by Admin on 08.10.2022.
+//  Created by Vladyslav Liubov on 08.10.2022.
 //
 
 import Combine
 import SwiftUI
 
-class RootViewModel: BaseViewModel<RootViewModel.State, RootViewModel.Action, Never> {
+class ConverterViewModel: BaseViewModel<ConverterViewModel.State, ConverterViewModel.Action, Never> {
   
-    
   enum CurrencyCategories: String, CaseIterable, Identifiable {
      case EUR, USD, JPY
         
@@ -43,7 +42,7 @@ class RootViewModel: BaseViewModel<RootViewModel.State, RootViewModel.Action, Ne
   }
   
     struct State: AnyState {
-        static func == (lhs: RootViewModel.State, rhs: RootViewModel.State) -> Bool {
+        static func == (lhs: ConverterViewModel.State, rhs: ConverterViewModel.State) -> Bool {
             true
         }
     

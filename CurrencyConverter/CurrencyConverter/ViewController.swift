@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  CurrencyConverter
 //
-//  Created by Admin on 08.10.2022.
+//  Created by Vladyslav Liubov on 08.10.2022.
 //
 
 import UIKit

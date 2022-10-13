@@ -25,7 +25,7 @@
 		848BCB2A28F1E39C00C4C22D /* AnySwiftUIHolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848BCB2928F1E39C00C4C22D /* AnySwiftUIHolderView.swift */; };
 		848BCB2D28F1E3A500C4C22D /* SwiftUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848BCB2B28F1E3A400C4C22D /* SwiftUIViewController.swift */; };
 		848BCB2E28F1E3A500C4C22D /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848BCB2C28F1E3A400C4C22D /* SwiftUIView.swift */; };
-		84D6078228F2108700B3710E /* APIServise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D6078128F2108700B3710E /* APIServise.swift */; };
+		84D6078228F2108700B3710E /* APIServiсe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D6078128F2108700B3710E /* APIServiсe.swift */; };
 		84D6078528F210E400B3710E /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D6078428F210E400B3710E /* Currency.swift */; };
 		84D6078C28F217BE00B3710E /* AppStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D6078B28F217BD00B3710E /* AppStyle.swift */; };
 		84D6078E28F217D800B3710E /* CustomFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D6078D28F217D800B3710E /* CustomFonts.swift */; };
@@ -56,7 +56,7 @@
 		848BCB2928F1E39C00C4C22D /* AnySwiftUIHolderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnySwiftUIHolderView.swift; sourceTree = "<group>"; };
 		848BCB2B28F1E3A400C4C22D /* SwiftUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIViewController.swift; sourceTree = "<group>"; };
 		848BCB2C28F1E3A400C4C22D /* SwiftUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
-		84D6078128F2108700B3710E /* APIServise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServise.swift; sourceTree = "<group>"; };
+		84D6078128F2108700B3710E /* APIServiсe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "APIServiсe.swift"; sourceTree = "<group>"; };
 		84D6078428F210E400B3710E /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
 		84D6078B28F217BD00B3710E /* AppStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStyle.swift; sourceTree = "<group>"; };
 		84D6078D28F217D800B3710E /* CustomFonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomFonts.swift; sourceTree = "<group>"; };
@@ -171,7 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				84D6078628F210E900B3710E /* Models */,
-				84D6078128F2108700B3710E /* APIServise.swift */,
+				84D6078128F2108700B3710E /* APIServiсe.swift */,
 			);
 			path = APIServise;
 			sourceTree = "<group>";
@@ -322,7 +322,7 @@
 				848BCB1328F1E27500C4C22D /* ConverterView.swift in Sources */,
 				848BCAFE28F1E22500C4C22D /* AppDelegate.swift in Sources */,
 				848BCB2A28F1E39C00C4C22D /* AnySwiftUIHolderView.swift in Sources */,
-				84D6078228F2108700B3710E /* APIServise.swift in Sources */,
+				84D6078228F2108700B3710E /* APIServiсe.swift in Sources */,
 				848BCB2028F1E2AE00C4C22D /* BaseViewController.swift in Sources */,
 				848BCB0028F1E22500C4C22D /* SceneDelegate.swift in Sources */,
 				848BCB2D28F1E3A500C4C22D /* SwiftUIViewController.swift in Sources */,

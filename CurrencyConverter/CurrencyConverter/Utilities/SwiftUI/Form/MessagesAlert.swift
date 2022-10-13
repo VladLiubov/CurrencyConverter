@@ -2,7 +2,7 @@
 //  Messages.swift
 //  CurrencyConverter
 //
-//  Created by Admin on 12.10.2022.
+//  Created by Vladyslav Liubov on 08.10.2022.
 //
 
 import Foundation
@@ -16,7 +16,7 @@ enum Messages: String, CaseIterable {
 
 struct ChosenMessage {
     var selectMessage: Messages
-    var viewModel: RootViewModel
+    var viewModel: ConverterViewModel
     
     var body: String {
         switch selectMessage {

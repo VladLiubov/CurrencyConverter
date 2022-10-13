@@ -2,14 +2,14 @@
 //  ConverterViewController.swift
 //  CurrencyConverter
 //
-//  Created by Admin on 08.10.2022.
+//  Created by Vladyslav Liubov on 08.10.2022.
 //
 
 import Combine
 import SwiftUI
 
-class RootViewController: SwiftUIViewController, UIGestureRecognizerDelegate {
-  typealias ViewModel = RootViewModel
+class ConverterViewController: SwiftUIViewController, UIGestureRecognizerDelegate {
+  typealias ViewModel = ConverterViewModel
   
   private let viewModel: ViewModel
   private var cancellables = Set<AnyCancellable>()
@@ -44,7 +44,7 @@ class RootViewController: SwiftUIViewController, UIGestureRecognizerDelegate {
 }
 
 // - Subscribe
-private extension RootViewController {
+private extension ConverterViewController {
   
   func subscribe() {
     viewModel.$state.sink { [weak self] state in

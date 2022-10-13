@@ -2,15 +2,15 @@
 //  ConverterView.swift
 //  CurrencyConverter
 //
-//  Created by Admin on 08.10.2022.
+//  Created by Vladyslav Liubov on 08.10.2022.
 //
 
 import SwiftUI
 import Combine
 
-extension RootViewController {
+extension ConverterViewController {
   
-  struct ContainerView: View {
+  struct ConverterView: View {
    
     @ObservedObject var viewModel: ViewModel
       
@@ -96,7 +96,7 @@ extension RootViewController {
                       }
 
                       Picker("Picker", selection: bindingSelectedSellInput) {
-                          ForEach(RootViewController.ViewModel.CurrencyCategories.allCases) { category in
+                          ForEach(ConverterViewController.ViewModel.CurrencyCategories.allCases) { category in
                               Text(category.name)
                                   .tag(category)
                           }
@@ -123,7 +123,7 @@ extension RootViewController {
                   Spacer()
                   
                   Picker("Picker", selection: bindingSelectedReciveInput) {
-                      ForEach(RootViewController.ViewModel.CurrencyCategories.allCases) { category in
+                      ForEach(ConverterViewController.ViewModel.CurrencyCategories.allCases) { category in
                         Text(category.name)
                            .tag(category)
                     }

@@ -1,8 +1,8 @@
 //
 //  TextButtonStyle.swift
-//  Posthumously
+//  CurrencyConverter
 //
-//  Created by Kostiantyn Nikitchenko on 27.04.2022.
+//  Created by Vladyslav Liubov on 08.10.2022.
 //
 
 import Foundation

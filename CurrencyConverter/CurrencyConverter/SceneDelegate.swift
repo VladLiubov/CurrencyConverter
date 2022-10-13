@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  CurrencyConverter
 //
-//  Created by Admin on 08.10.2022.
+//  Created by Vladyslav Liubov on 08.10.2022.
 //
 
 import UIKit
@@ -16,7 +16,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let scene = (scene as? UIWindowScene) else { return }
         window = UIWindow(windowScene: scene)
         
-        let rootVC = RootViewController(.init(state: .init()))
+        let rootVC = ConverterViewController(.init(state: .init()))
         let navigationController = UINavigationController(rootViewController: rootVC)
         
         window?.rootViewController = navigationController
