@@ -10,7 +10,7 @@ import Combine
 
 extension ConverterViewController {
   
-  struct ConverterView: View {
+  struct ContainerView: View {
    
     @ObservedObject var viewModel: ViewModel
       
